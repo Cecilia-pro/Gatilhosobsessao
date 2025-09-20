@@ -228,23 +228,23 @@ export default function Home() {
           <h2 className="font-headline text-3xl md:text-4xl text-accent">Garanta agora mais 3 Bônus exclusivos:</h2>
           <div className="w-full grid grid-cols-1 gap-6">
             {bonuses.map((bonus, index) => (
-               <Card key={index} className="bg-card border-accent/50 text-left relative overflow-hidden">
-                 <div className="absolute top-0 left-0 bg-accent text-accent-foreground px-3 py-1 text-sm font-bold">
+               <Card key={index} className="bg-card border-accent/50 text-left relative overflow-hidden shadow-lg shadow-accent/20 ring-2 ring-accent/50">
+                 <div className="absolute top-0 left-0 bg-accent text-accent-foreground px-3 py-1 text-sm font-bold z-10">
                     BÔNUS {index + 1}
                  </div>
                  {bonus.image && (
-                    <div className="flex justify-center p-4">
-                        <Image src={bonus.image} alt={bonus.title} width={250} height={250} className="rounded-md" />
+                    <div className="flex justify-center p-4 pt-12 md:p-6 md:pt-12">
+                        <Image src={bonus.image} alt={bonus.title} width={300} height={300} className="rounded-md" />
                     </div>
                   )}
                  <CardHeader className={bonus.image ? 'pt-2' : 'pt-10'}>
-                   <CardTitle className="font-headline text-xl text-accent text-center">{bonus.title}</CardTitle>
+                   <CardTitle className="font-headline text-2xl text-accent text-center">{bonus.title}</CardTitle>
                  </CardHeader>
-                 <CardContent>
+                 <CardContent className="px-6">
                    <p className="text-foreground/80 pb-4 text-center">{bonus.description}</p>
-                   <div className="flex items-center justify-between bg-card/50 p-2 rounded-md">
+                   <div className="flex items-center justify-between bg-card/50 p-3 rounded-lg border">
                     <span className="line-through text-muted-foreground">{bonus.value}</span>
-                    <span className="font-bold text-green-400">GRÁTIS HOJE</span>
+                    <span className="font-bold text-green-400 text-lg">GRÁTIS HOJE</span>
                    </div>
                  </CardContent>
                </Card>
