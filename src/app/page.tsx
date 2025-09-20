@@ -265,9 +265,9 @@ export default function Home() {
         </section>
 
         <section className="w-full flex flex-col items-center space-y-6 py-12">
-           <Card className="bg-card border-primary/50 text-center relative overflow-hidden p-8 max-w-2xl">
-            <Image src="https://i.imgur.com/HadBWwf.png" alt="Selo de Garantia" width={96} height={96} className="mx-auto mb-4" />
-             <h2 className="font-headline text-3xl md:text-4xl text-primary">Sua Garantia de 30 Dias</h2>
+           <Card className="bg-card border-green-500/50 text-center relative overflow-hidden p-8 max-w-2xl">
+            <Image src="https://i.imgur.com/HadBWwf.png" alt="Selo de Garantia" width={128} height={128} className="mx-auto mb-4" />
+             <h2 className="font-headline text-3xl md:text-4xl text-green-500">Sua Garantia de 30 Dias</h2>
              <p className="text-lg text-foreground/90 mt-4">
                 Você terá 30 dias para entrar, experimentar e se não gostar, poderá pedir o dinheiro de volta. Eu prometo que vai valer a pena. Caso você entre e acredite que não valeu a pena, é só solicitar sua garantia dentro do prazo que <span className="font-bold">devolvemos 100% do seu dinheiro</span> na mesma hora.
              </p>
@@ -275,7 +275,7 @@ export default function Home() {
         </section>
 
          <section className="w-full flex flex-col items-center space-y-4 py-12 text-center">
-          <p className="text-lg font-bold text-primary">Essa oferta é válida por tempo LIMITADO.</p>
+          <p className="text-lg font-bold text-green-500">Essa oferta é válida por tempo LIMITADO.</p>
           <p className="text-md text-foreground/80 max-w-xl">Após o término do período promocional, o preço voltará ao normal. Se você fechar essa página, pode perder a chance de aproveitar essa oportunidade única por esse valor.</p>
           <div className="w-full max-w-sm pt-6">
             <CtaButton />
@@ -311,3 +311,5 @@ export default function Home() {
     </div>
   );
 }
+
+    
