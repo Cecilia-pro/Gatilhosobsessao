@@ -120,6 +120,7 @@ export default function Home() {
       title: 'BÔNUS 01 - MAMADA DA BEZERRA',
       description: 'Aprenda as técnicas que farão seu parceiro se tremer e gritar igual um bezerro quando quer leite!🔥',
       value: 'R$ 49,00',
+      image: 'https://i.imgur.com/ufgwqwS.png',
     },
     {
       title: 'BÔNUS 02 - YOGA ÍNTIMA',
@@ -231,11 +232,16 @@ export default function Home() {
                  <div className="absolute top-0 left-0 bg-accent text-accent-foreground px-3 py-1 text-sm font-bold">
                     BÔNUS {index + 1}
                  </div>
-                 <CardHeader className="pt-10">
-                   <CardTitle className="font-headline text-xl text-accent">{bonus.title}</CardTitle>
+                 {bonus.image && (
+                    <div className="flex justify-center p-4">
+                        <Image src={bonus.image} alt={bonus.title} width={200} height={200} className="rounded-md" />
+                    </div>
+                  )}
+                 <CardHeader className={bonus.image ? 'pt-2' : 'pt-10'}>
+                   <CardTitle className="font-headline text-xl text-accent text-center">{bonus.title}</CardTitle>
                  </CardHeader>
                  <CardContent>
-                   <p className="text-foreground/80 pb-4">{bonus.description}</p>
+                   <p className="text-foreground/80 pb-4 text-center">{bonus.description}</p>
                    <div className="flex items-center justify-between bg-card/50 p-2 rounded-md">
                     <span className="line-through text-muted-foreground">{bonus.value}</span>
                     <span className="font-bold text-green-400">GRÁTIS HOJE</span>
