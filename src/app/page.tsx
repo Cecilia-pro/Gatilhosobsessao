@@ -126,6 +126,7 @@ export default function Home() {
       title: 'BÔNUS 02 - YOGA ÍNTIMA',
       description: 'Desperte sua energia s3xual, destrua a monotonia e atinja níveis de pr@zer que você nunca imaginou.',
       value: 'R$ 87,00',
+      image: 'https://i.imgur.com/HItnNDj.png',
     },
      {
       title: 'BÔNUS 03 - AUDIOBOOK',
@@ -320,3 +321,4 @@ export default function Home() {
 
     
 
+    
