@@ -1,3 +1,58 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "carousel-1-1",
+      "description": "A sensual close-up portrait of a woman",
+      "imageUrl": "https://picsum.photos/seed/woman1/400/600",
+      "imageHint": "sensual portrait"
+    },
+    {
+      "id": "carousel-1-2",
+      "description": "A confident woman looking at the camera",
+      "imageUrl": "https://picsum.photos/seed/woman2/400/600",
+      "imageHint": "confident woman"
+    },
+    {
+      "id": "carousel-1-3",
+      "description": "A woman smiling happily",
+      "imageUrl": "https://picsum.photos/seed/woman3/400/600",
+      "imageHint": "woman smiling"
+    },
+    {
+      "id": "carousel-2-1",
+      "description": "Abstract book cover design for a bonus",
+      "imageUrl": "https://picsum.photos/seed/book1/400/600",
+      "imageHint": "book cover"
+    },
+    {
+      "id": "carousel-2-2",
+      "description": "A woman in a graceful yoga pose",
+      "imageUrl": "https://picsum.photos/seed/book2/400/600",
+      "imageHint": "yoga pose"
+    },
+    {
+      "id": "carousel-2-3",
+      "description": "An artistic cover for an audiobook",
+      "imageUrl": "https://picsum.photos/seed/book3/400/600",
+      "imageHint": "audiobook cover"
+    },
+    {
+      "id": "carousel-3-1",
+      "description": "A happy woman looking pleased, as a testimonial",
+      "imageUrl": "https://picsum.photos/seed/testimonial1/400/600",
+      "imageHint": "happy woman"
+    },
+    {
+      "id": "carousel-3-2",
+      "description": "A woman taking a selfie, representing a customer",
+      "imageUrl": "https://picsum.photos/seed/testimonial2/400/600",
+      "imageHint": "woman selfie"
+    },
+    {
+      "id": "carousel-3-3",
+      "description": "A smiling woman in a natural setting",
+      "imageUrl": "https://picsum.photos/seed/testimonial3/400/600",
+      "imageHint": "smiling woman"
+    }
+  ]
 }
