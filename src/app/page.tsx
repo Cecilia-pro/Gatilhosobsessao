@@ -66,14 +66,14 @@ const ImageCarousel = ({ imageIds }: { imageIds: string[] }) => {
           <CarouselItem key={image.id}>
             <div className="p-1">
               <Card className="overflow-hidden">
-                <CardContent className="flex aspect-[2/3] items-center justify-center p-0">
+                <CardContent className="flex aspect-auto items-center justify-center p-0">
                   <Image
                     src={image.imageUrl}
                     alt={image.description}
                     width={400}
-                    height={600}
+                    height={108}
                     data-ai-hint={image.imageHint}
-                    className="object-cover w-full h-full"
+                    className="object-contain w-full h-auto"
                   />
                 </CardContent>
               </Card>
@@ -204,7 +204,7 @@ export default function Home() {
           <ImageCarousel imageIds={['carousel-1-1', 'carousel-1-2', 'carousel-1-3']} />
           <p className="text-sm text-foreground/70">(Toque na seta ao lado)</p>
           <p className="text-lg text-foreground/90 max-w-2xl pt-4">
-            Técnicas <span className="font-bold text-primary">poderosas e comprovadas</span> que farão você dominar a mente e o corpo dele, criando um desejo tão intenso que ele jamais sentirá com outra mulher.
+            Alunas que aplicaram o método e tiveram resultados <span className="font-bold text-primary">IMEDIATOS</span>.
           </p>
         </section>
 
@@ -213,6 +213,15 @@ export default function Home() {
            <p className="text-sm text-foreground/70">(Toque na seta ao lado)</p>
         </section>
 
+        <section className="w-full flex flex-col items-center space-y-6 py-12">
+          <ImageCarousel imageIds={['carousel-3-1', 'carousel-3-2', 'carousel-3-3']} />
+          <p className="text-sm text-foreground/70">(Toque na seta ao lado)</p>
+        </section>
+        
+        <section className="w-full flex flex-col items-center space-y-6 py-12">
+          <ImageCarousel imageIds={['carousel-4-1', 'carousel-4-2', 'carousel-4-3']} />
+          <p className="text-sm text-foreground/70">(Toque na seta ao lado)</p>
+        </section>
 
         <section className="w-full flex flex-col items-center space-y-8 py-16">
           <h2 className="font-headline text-3xl md:text-4xl text-accent">Garanta agora mais 3 Bônus exclusivos:</h2>
@@ -255,11 +264,6 @@ export default function Home() {
                 <CountdownTimer />
               </div>
            </div>
-        </section>
-
-        <section className="w-full flex flex-col items-center space-y-6 py-12">
-          <ImageCarousel imageIds={['carousel-3-1', 'carousel-3-2', 'carousel-3-3']} />
-          <p className="text-sm text-foreground/70">(Toque na seta ao lado)</p>
         </section>
 
         <section className="w-full flex flex-col items-center space-y-6 py-12">
