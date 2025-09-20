@@ -251,9 +251,8 @@ export default function Home() {
             Você pagaria facilmente <span className="line-through">R$ 317,90</span> para ter acesso a TUDO ISSO... Mas somente hoje, leve tudo por um valor exclusivo:
           </p>
           <div className="bg-background rounded-lg p-6 w-full max-w-md">
-            <p className="text-foreground/80">POR APENAS 4 VEZES DE</p>
-            <p className="font-headline text-6xl md:text-7xl text-accent py-2">R$ 7,99</p>
-            <p className="text-foreground/80">OU <span className="font-bold text-accent">R$ 27,90</span> À VISTA</p>
+            <p className="text-foreground/80">POR APENAS</p>
+            <p className="font-headline text-6xl md:text-7xl text-accent py-2">R$ 27,90</p>
           </div>
           <div className="w-full max-w-sm pt-4">
             <CtaButton />
