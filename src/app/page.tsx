@@ -172,6 +172,7 @@ export default function Home() {
           <h1 className="font-headline text-4xl md:text-6xl text-primary leading-tight">
             Descubra os <span className="text-accent">SEGREDOS</span> para fazer qualquer homem <span className="text-accent">IMPLORAR POR VOCÊ</span>.
           </h1>
+          <Image src="https://i.imgur.com/5xou6DY.gif" alt="Mulher sedutora" width={400} height={225} className="rounded-lg my-4" />
           <p className="text-lg md:text-xl text-foreground/80 max-w-xl">
             Comece AGORA e tenha qualquer homem aos seus pés.
           </p>
