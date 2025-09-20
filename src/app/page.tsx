@@ -228,7 +228,7 @@ export default function Home() {
           <h2 className="font-headline text-3xl md:text-4xl text-accent">Garanta agora mais 3 Bônus exclusivos:</h2>
           <div className="w-full grid grid-cols-1 gap-6">
             {bonuses.map((bonus, index) => (
-               <Card key={index} className="bg-card border-accent/50 text-left relative overflow-hidden shadow-lg shadow-accent/20 ring-2 ring-accent/50">
+               <Card key={index} className="bg-card border-accent/50 text-left relative overflow-hidden shadow-2xl shadow-accent/40 ring-2 ring-accent/50">
                  <div className="absolute top-0 left-0 bg-accent text-accent-foreground px-3 py-1 text-sm font-bold z-10">
                     BÔNUS {index + 1}
                  </div>
