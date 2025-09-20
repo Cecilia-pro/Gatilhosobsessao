@@ -255,22 +255,24 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="pricing" className="w-full flex flex-col items-center space-y-6 py-12 bg-card rounded-xl p-6 md:p-10 my-8 border border-accent/50 shadow-lg shadow-accent/10">
+        <section id="pricing" className="w-full flex flex-col items-center space-y-4 py-12 bg-card rounded-xl p-6 md:p-10 my-8 border-2 border-accent shadow-2xl shadow-accent/20">
+          <h2 className="font-headline text-3xl md:text-5xl text-accent">OFERTA ESPECIAL POR TEMPO LIMITADO</h2>
           <p className="text-lg md:text-xl text-foreground/90 max-w-2xl">
-            Você pagaria facilmente <span className="line-through">R$ 317,90</span> para ter acesso a TUDO ISSO... Mas somente hoje, leve tudo por um valor exclusivo:
+            Acesso completo ao <span className="font-bold">Protocolo da Obsessão Masculina</span> + <span className="font-bold">3 Bônus Exclusivos</span> de <span className="line-through">R$317,90</span> por apenas:
           </p>
-          <div className="bg-background rounded-lg p-6 w-full max-w-md">
-            <p className="font-headline text-6xl md:text-7xl text-accent py-2">R$ 27,90</p>
+          <div className="bg-background/50 rounded-lg p-4 md:p-6 w-full max-w-md my-4 border border-border">
+            <p className="font-headline text-6xl md:text-8xl text-accent" style={{ textShadow: '0 0 15px hsl(var(--accent) / 0.5)' }}>R$ 27,90</p>
+            <p className="text-lg text-foreground/80">Pagamento único, sem mensalidades.</p>
           </div>
           <div className="w-full max-w-sm pt-4">
             <CtaButton />
           </div>
-           <div className="flex items-center space-x-2 pt-4">
-              <span className="text-sm text-green-500">⚠️ ATENÇÃO: ESSA OFERTA EXCLUSIVA ACABA EM</span>
-              <div className="bg-green-500/20 text-green-500 text-sm font-bold px-2 py-1 rounded">
-                <CountdownTimer />
-              </div>
-           </div>
+          <div className="flex items-center space-x-2 pt-4">
+            <span className="text-sm text-green-500 animate-pulse">⚠️ OFERTA VÁLIDA SOMENTE AGORA</span>
+            <div className="bg-green-500/20 text-green-500 text-sm font-bold px-2 py-1 rounded">
+              <CountdownTimer />
+            </div>
+          </div>
         </section>
 
         <section className="w-full flex flex-col items-center space-y-6 py-12">
