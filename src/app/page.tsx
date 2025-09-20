@@ -132,6 +132,7 @@ export default function Home() {
       title: 'BÔNUS 03 - AUDIOBOOK',
       description: 'A voz que vai explodir sua mente, romper limites e transformar sua vida enquanto você ouve.',
       value: 'R$ 77,00',
+      image: 'https://i.imgur.com/NSdfYEI.png',
     },
   ];
 
@@ -318,7 +319,3 @@ export default function Home() {
     </div>
   );
 }
-
-    
-
-    
