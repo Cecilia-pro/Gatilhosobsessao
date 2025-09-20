@@ -244,7 +244,7 @@ export default function Home() {
                    <p className="text-foreground/80 pb-4 text-center">{bonus.description}</p>
                    <div className="flex items-center justify-between bg-card/50 p-3 rounded-lg border">
                     <span className="line-through text-muted-foreground">{bonus.value}</span>
-                    <span className="font-bold text-green-400 text-lg">GRÁTIS HOJE</span>
+                    <span className="font-bold text-green-400 text-xl" style={{ textShadow: '0 0 8px hsl(140 100% 50% / 0.7)' }}>GRÁTIS HOJE</span>
                    </div>
                  </CardContent>
                </Card>
@@ -319,3 +319,4 @@ export default function Home() {
 }
 
     
+
