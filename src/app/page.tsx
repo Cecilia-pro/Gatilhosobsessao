@@ -59,7 +59,7 @@ const ImageCarousel = ({ imageIds }: { imageIds: string[] }) => {
         align: 'start',
         loop: true,
       }}
-      className="w-full max-w-xs"
+      className="w-full max-w-md"
     >
       <CarouselContent>
         {images.map((image) => (
