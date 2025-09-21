@@ -135,8 +135,8 @@ export default function Home() {
       image: 'https://i.imgur.com/NSdfYEI.png',
     },
     {
-      title: 'BÔNUS 04 - CHÁ DE PPK',
-      description: 'O segredo para um homem nunca mais te esquecer e ficar viciado em você.',
+      title: 'BÔNUS 04 - GUIA DO SEXO',
+      description: 'Um guia com mais de 100 posições s3xuais para você fazer com o boy.',
       value: 'R$ 69,90',
       image: 'https://i.imgur.com/KpzplLP.png',
     },
