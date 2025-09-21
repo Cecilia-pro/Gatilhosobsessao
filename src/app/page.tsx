@@ -272,7 +272,7 @@ export default function Home() {
         <section id="pricing" className="w-full flex flex-col items-center space-y-4 py-12 bg-card rounded-xl p-6 md:p-10 my-8 border-2 border-accent shadow-2xl shadow-accent/20">
           <h2 className="font-headline text-3xl md:text-5xl text-accent">OFERTA ESPECIAL POR TEMPO LIMITADO</h2>
           <p className="text-lg md:text-xl text-foreground/90 max-w-2xl">
-            Acesso completo as Video aulas e as áreas de membros do <span className="font-bold">Ritual da Obsessão</span> + <span className="font-bold">7 Bônus Exclusivos</span> de <span className="line-through">R$317,90</span> por apenas:
+            Acesso completo as Vídeo aulas e a área de membros do <span className="font-bold">Ritual da Obsessão</span> + <span className="font-bold">7 Bônus Exclusivos</span> de <span className="line-through">R$317,90</span> por apenas:
           </p>
           <div className="bg-background/50 rounded-lg p-4 md:p-6 w-full max-w-md my-4 border border-border">
             <p className="font-headline text-6xl md:text-8xl text-accent" style={{ textShadow: '0 0 15px hsl(var(--accent) / 0.5)' }}>R$ 27,90</p>
