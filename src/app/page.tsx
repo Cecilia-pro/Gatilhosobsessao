@@ -275,7 +275,7 @@ export default function Home() {
 
         <section className="w-full flex flex-col items-center space-y-6 py-12">
            <Card className="bg-card border-green-500/50 text-center relative overflow-hidden p-8 max-w-2xl">
-            <Image src="https://i.imgur.com/HadBWwf.png" alt="Selo de Garantia" width={200} height={200} className="mx-auto mb-4" />
+            <Image src="https://i.imgur.com/7mK4yge.png" alt="Selo de Garantia" width={200} height={200} className="mx-auto mb-4" />
              <h2 className="font-headline text-3xl md:text-4xl text-green-500">Sua Garantia de 30 Dias</h2>
              <p className="text-lg text-foreground/90 mt-4">
                 Você terá 30 dias para entrar, experimentar e se não gostar, poderá pedir o dinheiro de volta. Eu prometo que vai valer a pena. Caso você entre e acredite que não valeu a pena, é só solicitar sua garantia dentro do prazo que <span className="font-bold">devolvemos 100% do seu dinheiro</span> na mesma hora.
@@ -329,3 +329,5 @@ export default function Home() {
     </div>
   );
 }
+
+    
