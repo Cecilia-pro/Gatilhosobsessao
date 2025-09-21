@@ -19,57 +19,33 @@
       "imageHint": "testimonial"
     },
     {
-      "id": "carousel-2-1",
-      "description": "Depoimento de cliente satisfeita",
-      "imageUrl": "https://i.imgur.com/KaUsGPn.png",
-      "imageHint": "testimonial"
-    },
-    {
-      "id": "carousel-2-2",
-      "description": "Depoimento de cliente satisfeita",
-      "imageUrl": "https://i.imgur.com/Mhef5tJ.png",
-      "imageHint": "testimonial"
-    },
-    {
-      "id": "carousel-2-3",
-      "description": "Depoimento de cliente satisfeita",
-      "imageUrl": "https://i.imgur.com/iXerhaE.png",
-      "imageHint": "testimonial"
-    },
-    {
-      "id": "carousel-3-1",
-      "description": "Depoimento de cliente satisfeita",
-      "imageUrl": "https://i.imgur.com/igIP4og.png",
-      "imageHint": "testimonial"
-    },
-    {
-      "id": "carousel-3-2",
-      "description": "Depoimento de cliente satisfeita",
-      "imageUrl": "https://i.imgur.com/LjSdjel.png",
-      "imageHint": "testimonial"
-    },
-    {
-      "id": "carousel-3-3",
-      "description": "Depoimento de cliente satisfeita",
-      "imageUrl": "https://i.imgur.com/tTBhuqE.png",
-      "imageHint": "testimonial"
-    },
-    {
-      "id": "carousel-4-1",
-      "description": "Depoimento de cliente satisfeita",
-      "imageUrl": "https://i.imgur.com/5KjKlXu.png",
-      "imageHint": "testimonial"
-    },
-    {
-      "id": "carousel-4-2",
+      "id": "new-carousel-1",
       "description": "Depoimento de cliente satisfeita",
       "imageUrl": "https://i.imgur.com/UhImIsa.png",
       "imageHint": "testimonial"
     },
     {
-      "id": "carousel-4-3",
+      "id": "new-carousel-2",
       "description": "Depoimento de cliente satisfeita",
-      "imageUrl": "https://i.imgur.com/hU7vnhb.png",
+      "imageUrl": "https://i.imgur.com/5KjKlXu.png",
+      "imageHint": "testimonial"
+    },
+    {
+      "id": "new-carousel-3",
+      "description": "Depoimento de cliente satisfeita",
+      "imageUrl": "https://i.imgur.com/tTBhuqE.png",
+      "imageHint": "testimonial"
+    },
+    {
+      "id": "new-carousel-4",
+      "description": "Depoimento de cliente satisfeita",
+      "imageUrl": "https://i.imgur.com/LjSdjel.png",
+      "imageHint": "testimonial"
+    },
+    {
+      "id": "new-carousel-5",
+      "description": "Depoimento de cliente satisfeita",
+      "imageUrl": "https://i.imgur.com/igIP4og.png",
       "imageHint": "testimonial"
     }
   ]

@@ -59,7 +59,7 @@ const ImageCarousel = ({ imageIds }: { imageIds: string[] }) => {
         align: 'start',
         loop: true,
       }}
-      className="w-full max-w-md"
+      className="w-full max-w-lg"
     >
       <CarouselContent>
         {images.map((image) => (
@@ -213,12 +213,7 @@ export default function Home() {
         </section>
 
         <section className="w-full flex flex-col items-center space-y-6 py-12">
-          <ImageCarousel imageIds={['carousel-3-1', 'carousel-3-2', 'carousel-3-3']} />
-          <p className="text-sm text-foreground/70">(Toque na seta ao lado)</p>
-        </section>
-        
-        <section className="w-full flex flex-col items-center space-y-6 py-12">
-          <ImageCarousel imageIds={['carousel-4-1', 'carousel-4-2', 'carousel-4-3']} />
+          <ImageCarousel imageIds={['new-carousel-1', 'new-carousel-2', 'new-carousel-3', 'new-carousel-4', 'new-carousel-5']} />
           <p className="text-sm text-foreground/70">(Toque na seta ao lado)</p>
         </section>
 
