@@ -134,6 +134,30 @@ export default function Home() {
       value: 'R$ 77,00',
       image: 'https://i.imgur.com/NSdfYEI.png',
     },
+    {
+      title: 'BÔNUS 04 - CHÁ DE PPK',
+      description: 'O segredo para um homem nunca mais te esquecer e ficar viciado em você.',
+      value: 'R$ 69,90',
+      image: 'https://i.imgur.com/KpzplLP.png',
+    },
+    {
+      title: 'BÔNUS 05 - O GUIA DO PRAZER',
+      description: 'Um guia completo para você que deseja aprender a se tocar e sentir os melhores e mais intensos pr@zeres.',
+      value: 'R$ 49,90',
+      image: 'https://i.imgur.com/ywQobpe.png',
+    },
+    {
+      title: 'BÔNUS 06 - 100 POSIÇÕES',
+      description: 'Um guia com mais de 100 posições s3xuais para você fazer com o boy.',
+      value: 'R$ 37,00',
+      image: 'https://i.imgur.com/TfSFQEn.png',
+    },
+    {
+      title: 'BÔNUS 07 - MASSAGEM ERÓTICA',
+      description: 'A massagem que vai levar seu parceiro ao céu sem usar as mãos.',
+      value: 'R$ 97,00',
+      image: 'https://i.imgur.com/FyPIy4L.png',
+    },
   ];
 
   const faqItems = [
