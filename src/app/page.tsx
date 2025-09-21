@@ -173,7 +173,7 @@ export default function Home() {
             Descubra os <span className="text-accent">SEGREDOS</span> para fazer qualquer homem <span className="text-accent">IMPLORAR POR VOCÊ</span>.
           </h1>
           <Image src="https://i.imgur.com/5xou6DY.gif" alt="Mulher sedutora" width={400} height={225} className="rounded-lg my-4" />
-          <p className="text-lg md:text-xl text-foreground/80 max-w-xl">
+          <p className="text-xl md:text-2xl font-bold text-foreground/90 max-w-xl">
             Comece AGORA e tenha qualquer homem aos seus pés.
           </p>
           <div className="w-full max-w-sm pt-4">
@@ -329,7 +329,3 @@ export default function Home() {
     </div>
   );
 }
-
-    
-
-    
