@@ -147,8 +147,8 @@ export default function Home() {
       image: 'https://i.imgur.com/ywQobpe.png',
     },
     {
-      title: 'BÔNUS 06 - 100 POSIÇÕES',
-      description: 'Um guia com mais de 100 posições s3xuais para você fazer com o boy.',
+      title: 'BÔNUS 06 - Pompoarismo',
+      description: 'Transforme cada encontro em uma experiência inesquecível! Aprenda técnicas secretas para surpreender na cama e deixar seu parceiro obcecado e querendo mais! 🔥',
       value: 'R$ 37,00',
       image: 'https://i.imgur.com/TfSFQEn.png',
     },
