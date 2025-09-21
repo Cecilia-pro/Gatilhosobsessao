@@ -47,6 +47,36 @@
       "description": "Depoimento de cliente satisfeita",
       "imageUrl": "https://i.imgur.com/igIP4og.png",
       "imageHint": "testimonial"
+    },
+    {
+      "id": "payment-carousel-1",
+      "description": "Formas de Pagamento",
+      "imageUrl": "https://i.imgur.com/16BZyLv.png",
+      "imageHint": "payment methods"
+    },
+    {
+      "id": "payment-carousel-2",
+      "description": "Formas de Pagamento",
+      "imageUrl": "https://i.imgur.com/I1yvBr3.png",
+      "imageHint": "payment methods"
+    },
+    {
+      "id": "payment-carousel-3",
+      "description": "Formas de Pagamento",
+      "imageUrl": "https://i.imgur.com/KaUsGPn.png",
+      "imageHint": "payment methods"
+    },
+    {
+      "id": "payment-carousel-4",
+      "description": "Formas de Pagamento",
+      "imageUrl": "https://i.imgur.com/Mhef5tJ.png",
+      "imageHint": "payment methods"
+    },
+    {
+      "id": "payment-carousel-5",
+      "description": "Formas de Pagamento",
+      "imageUrl": "https://i.imgur.com/iXerhaE.png",
+      "imageHint": "payment methods"
     }
   ]
 }

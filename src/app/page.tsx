@@ -264,6 +264,14 @@ export default function Home() {
             </div>
           </div>
         </section>
+        
+        <section className="w-full flex flex-col items-center space-y-6 py-12">
+          <ImageCarousel imageIds={['payment-carousel-1', 'payment-carousel-2', 'payment-carousel-3', 'payment-carousel-4', 'payment-carousel-5']} />
+          <p className="text-sm text-foreground/70">(Arraste para o lado)</p>
+          <p className="text-lg text-foreground/90 max-w-2xl pt-4">
+            Pagamento seguro e facilitado.
+          </p>
+        </section>
 
         <section className="w-full flex flex-col items-center space-y-6 py-12">
            <Card className="bg-card border-green-500/50 text-center relative overflow-hidden p-8 max-w-2xl">
