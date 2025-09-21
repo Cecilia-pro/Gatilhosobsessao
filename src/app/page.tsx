@@ -70,8 +70,8 @@ const ImageCarousel = ({ imageIds }: { imageIds: string[] }) => {
                   <Image
                     src={image.imageUrl}
                     alt={image.description}
-                    width={400}
-                    height={400}
+                    width={500}
+                    height={500}
                     data-ai-hint={image.imageHint}
                     className="object-contain w-full h-auto"
                   />
@@ -210,11 +210,6 @@ export default function Home() {
           <p className="text-lg text-foreground/90 max-w-2xl pt-4">
             Alunas que aplicaram o método e tiveram resultados <span className="font-bold text-primary">IMEDIATOS</span>.
           </p>
-        </section>
-
-        <section className="w-full flex flex-col items-center space-y-6 py-12">
-          <ImageCarousel imageIds={['carousel-2-1', 'carousel-2-2', 'carousel-2-3']} />
-           <p className="text-sm text-foreground/70">(Toque na seta ao lado)</p>
         </section>
 
         <section className="w-full flex flex-col items-center space-y-6 py-12">
