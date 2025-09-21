@@ -136,7 +136,7 @@ export default function Home() {
     },
     {
       title: 'BÔNUS 04 - GUIA DO SEXO',
-      description: 'Um guia com mais de 100 posições s3xuais para você fazer com o boy.',
+      description: 'Se o que você quer é sexo de verdade, com paixão, entrega e prazer total, as posições fatais são a chave. Prepare-se para descobrir as melhores posições e deixar seu corpo em chamas.🔥',
       value: 'R$ 69,90',
       image: 'https://i.imgur.com/KpzplLP.png',
     },
