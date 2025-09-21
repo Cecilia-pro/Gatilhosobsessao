@@ -141,8 +141,8 @@ export default function Home() {
       image: 'https://i.imgur.com/KpzplLP.png',
     },
     {
-      title: 'BÔNUS 05 - O GUIA DO PRAZER',
-      description: 'Um guia completo para você que deseja aprender a se tocar e sentir os melhores e mais intensos pr@zeres.',
+      title: 'BÔNUS 05 - Puta de luxo',
+      description: 'Aprenda a Deixar Qualquer Homem Completamente Obcecado por Você! Descubra as táticas das mulheres mais desejadas e aprenda a despertar o prazer incontrolável nos homens.🔥',
       value: 'R$ 49,90',
       image: 'https://i.imgur.com/ywQobpe.png',
     },
