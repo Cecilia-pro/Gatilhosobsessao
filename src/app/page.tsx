@@ -307,7 +307,7 @@ export default function Home() {
             ))}
           </Accordion>
            <div className="pt-6">
-            <Image src="https://i.imgur.com/2nZa35m.png" alt="Formas de pagamento seguras" width={400} height={100} />
+            <Image src="https://i.imgur.com/7mK4yge.png" alt="Formas de pagamento seguras" width={400} height={100} />
           </div>
           <div className="w-full max-w-sm pt-6">
             <Link href="#pricing" className="w-full">
