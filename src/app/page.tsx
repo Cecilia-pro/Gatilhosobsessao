@@ -71,7 +71,7 @@ const ImageCarousel = ({ imageIds }: { imageIds: string[] }) => {
                     src={image.imageUrl}
                     alt={image.description}
                     width={400}
-                    height={108}
+                    height={400}
                     data-ai-hint={image.imageHint}
                     className="object-contain w-full h-auto"
                   />
