@@ -153,8 +153,8 @@ export default function Home() {
       image: 'https://i.imgur.com/TfSFQEn.png',
     },
     {
-      title: 'BÔNUS 07 - MASSAGEM ERÓTICA',
-      description: 'A massagem que vai levar seu parceiro ao céu sem usar as mãos.',
+      title: 'BÔNUS 07 - MASSAGEM TÂNTRICA',
+      description: 'Aprenda na prática com Vídeos e prepare-se para um prazer nunca visto antes. Se o foco é prazer, você fará a melhor massagem tântrica que seu parceiro já viu na vida.',
       value: 'R$ 97,00',
       image: 'https://i.imgur.com/FyPIy4L.png',
     },
