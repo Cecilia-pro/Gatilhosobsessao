@@ -242,7 +242,7 @@ export default function Home() {
         </section>
 
         <section className="w-full flex flex-col items-center space-y-8 py-16">
-          <h2 className="font-headline text-3xl md:text-4xl text-accent">Garanta agora mais 3 Bônus exclusivos:</h2>
+          <h2 className="font-headline text-3xl md:text-4xl text-accent">Garanta agora mais 7 Bônus exclusivos:</h2>
           <div className="w-full grid grid-cols-1 gap-6">
             {bonuses.map((bonus, index) => (
                <Card key={index} className="bg-card border-accent/50 text-left relative overflow-hidden shadow-2xl shadow-accent/40 ring-2 ring-accent/50">
@@ -272,7 +272,7 @@ export default function Home() {
         <section id="pricing" className="w-full flex flex-col items-center space-y-4 py-12 bg-card rounded-xl p-6 md:p-10 my-8 border-2 border-accent shadow-2xl shadow-accent/20">
           <h2 className="font-headline text-3xl md:text-5xl text-accent">OFERTA ESPECIAL POR TEMPO LIMITADO</h2>
           <p className="text-lg md:text-xl text-foreground/90 max-w-2xl">
-            Acesso completo ao <span className="font-bold">Protocolo da Obsessão Masculina</span> + <span className="font-bold">3 Bônus Exclusivos</span> de <span className="line-through">R$317,90</span> por apenas:
+            Acesso completo as Video aulas e as áreas de membros do <span className="font-bold">Ritual da Obsessão</span> + <span className="font-bold">7 Bônus Exclusivos</span> de <span className="line-through">R$317,90</span> por apenas:
           </p>
           <div className="bg-background/50 rounded-lg p-4 md:p-6 w-full max-w-md my-4 border border-border">
             <p className="font-headline text-6xl md:text-8xl text-accent" style={{ textShadow: '0 0 15px hsl(var(--accent) / 0.5)' }}>R$ 27,90</p>
@@ -353,3 +353,5 @@ export default function Home() {
     </div>
   );
 }
+
+    
