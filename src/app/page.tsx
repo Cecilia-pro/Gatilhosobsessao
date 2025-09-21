@@ -70,8 +70,8 @@ const ImageCarousel = ({ imageIds }: { imageIds: string[] }) => {
                   <Image
                     src={image.imageUrl}
                     alt={image.description}
-                    width={500}
-                    height={500}
+                    width={600}
+                    height={600}
                     data-ai-hint={image.imageHint}
                     className="object-contain w-full h-auto"
                   />
@@ -233,7 +233,7 @@ export default function Home() {
                  <CardHeader className={bonus.image ? 'pt-2' : 'pt-10'}>
                    <CardTitle className="font-headline text-2xl text-accent text-center">{bonus.title}</CardTitle>
                  </CardHeader>
-                 <CardContent className="px-6">
+                 <CardContent className="px-6 pb-6">
                    <p className="text-foreground/80 pb-4 text-center">{bonus.description}</p>
                    <div className="flex items-center justify-between bg-card/50 p-3 rounded-lg border">
                     <span className="line-through text-muted-foreground">{bonus.value}</span>
@@ -275,7 +275,7 @@ export default function Home() {
 
         <section className="w-full flex flex-col items-center space-y-6 py-12">
            <Card className="bg-card border-green-500/50 text-center relative overflow-hidden p-8 max-w-2xl">
-            <Image src="https://i.imgur.com/HadBWwf.png" alt="Selo de Garantia" width={150} height={150} className="mx-auto mb-4" />
+            <Image src="https://i.imgur.com/HadBWwf.png" alt="Selo de Garantia" width={200} height={200} className="mx-auto mb-4" />
              <h2 className="font-headline text-3xl md:text-4xl text-green-500">Sua Garantia de 30 Dias</h2>
              <p className="text-lg text-foreground/90 mt-4">
                 Você terá 30 dias para entrar, experimentar e se não gostar, poderá pedir o dinheiro de volta. Eu prometo que vai valer a pena. Caso você entre e acredite que não valeu a pena, é só solicitar sua garantia dentro do prazo que <span className="font-bold">devolvemos 100% do seu dinheiro</span> na mesma hora.
@@ -313,10 +313,6 @@ export default function Home() {
       <footer className="w-full text-center p-4 border-t border-border">
           <p className="text-sm text-muted-foreground">Copyright © 2024. Todos os direitos reservados – Venenofeminino.online</p>
       </footer>
-
-      <div className="fixed bottom-0 left-0 right-0 bg-background/80 backdrop-blur-sm p-3 border-t border-accent/20 z-40 md:hidden">
-        <CtaButton />
-      </div>
     </div>
   );
 }
