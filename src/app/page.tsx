@@ -306,6 +306,16 @@ export default function Home() {
               </AccordionItem>
             ))}
           </Accordion>
+          <div className="w-full max-w-sm pt-6">
+            <Link href="#pricing" className="w-full">
+              <Button
+                className="w-full h-14 text-lg font-bold bg-green-500 text-white hover:bg-green-600 animate-pulse-glow shadow-lg shadow-green-500/30"
+                size="lg"
+              >
+                GARANTIR VAGA AGORA!
+              </Button>
+            </Link>
+          </div>
         </section>
 
       </main>
