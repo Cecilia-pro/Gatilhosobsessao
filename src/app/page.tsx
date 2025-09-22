@@ -41,7 +41,7 @@ import { SocialProof } from '@/components/social-proof';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const CtaButton = ({ className }: { className?: string }) => (
-  <Link href="#pricing" className="w-full">
+  <Link href="https://go.paradisepagbr.com/otcfh2fdqq" className="w-full">
     <Button
       className={`w-full h-14 text-lg font-bold bg-accent text-accent-foreground hover:bg-accent/90 animate-pulse-glow shadow-lg shadow-accent/30 ${className}`}
       size="lg"
@@ -334,7 +334,7 @@ export default function Home() {
             <Image src="https://i.imgur.com/7mK4yge.png" alt="Formas de pagamento seguras" width={400} height={100} />
           </div>
           <div className="w-full max-w-sm pt-6">
-            <Link href="#pricing" className="w-full">
+            <Link href="https://go.paradisepagbr.com/otcfh2fdqq" className="w-full">
               <Button
                 className="w-full h-14 text-lg font-bold bg-green-500 text-white hover:bg-green-600 animate-pulse-glow shadow-lg shadow-green-500/30"
                 size="lg"
@@ -353,5 +353,7 @@ export default function Home() {
     </div>
   );
 }
+
+    
 
     
