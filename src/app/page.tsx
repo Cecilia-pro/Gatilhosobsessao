@@ -40,16 +40,19 @@ import { CountdownTimer } from '@/components/countdown-timer';
 import { SocialProof } from '@/components/social-proof';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
-const CtaButton = ({ className }: { className?: string }) => (
-  <Link href="https://go.paradisepagbr.com/otcfh2fdqq" className="w-full">
-    <Button
-      className={`w-full h-14 text-lg font-bold bg-accent text-accent-foreground hover:bg-accent/90 animate-pulse-glow shadow-lg shadow-accent/30 ${className}`}
-      size="lg"
-    >
-      EU QUERO COMEÇAR AGORA
-    </Button>
-  </Link>
-);
+const CtaButton = ({ className, external = false }: { className?: string, external?: boolean }) => {
+  const href = external ? "https://go.paradisepagbr.com/otcfh2fdqq" : "#pricing";
+  return (
+    <Link href={href} className="w-full">
+      <Button
+        className={`w-full h-14 text-lg font-bold bg-accent text-accent-foreground hover:bg-accent/90 animate-pulse-glow shadow-lg shadow-accent/30 ${className}`}
+        size="lg"
+      >
+        EU QUERO COMEÇAR AGORA
+      </Button>
+    </Link>
+  );
+}
 
 const ImageCarousel = ({ imageIds }: { imageIds: string[] }) => {
   const images = PlaceHolderImages.filter((img) => imageIds.includes(img.id));
@@ -279,7 +282,7 @@ export default function Home() {
             <p className="text-lg text-foreground/80">Pagamento único, sem mensalidades.</p>
           </div>
           <div className="w-full max-w-sm pt-4">
-            <CtaButton />
+            <CtaButton external={true} />
           </div>
           <div className="flex items-center space-x-2 pt-4">
             <span className="text-sm text-green-500 animate-pulse">⚠️ OFERTA VÁLIDA SOMENTE AGORA</span>
@@ -311,7 +314,7 @@ export default function Home() {
           <p className="text-lg font-bold text-green-500">Essa oferta é válida por tempo LIMITADO.</p>
           <p className="text-md text-foreground/80 max-w-xl">Após o término do período promocional, o preço voltará ao normal. Se você fechar essa página, pode perder a chance de aproveitar essa oportunidade única por esse valor.</p>
           <div className="w-full max-w-sm pt-6">
-            <CtaButton />
+            <CtaButton external={true} />
           </div>
         </section>
 
