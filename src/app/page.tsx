@@ -138,6 +138,27 @@ export default function Home() {
     },
   ];
 
+    const bonusItems = [
+    {
+      imageSrc: "https://i.imgur.com/SQgoNEG.png",
+      description: "Desperte sua energia s3xual, destrua a monotonia e atinja níveis de pr@zer que você nunca imaginou.",
+      price: "R$ 87,00",
+      freeText: "GRÁTIS"
+    },
+    {
+      imageSrc: "https://i.imgur.com/A7wY6iR.png",
+      description: "Aprenda as técnicas que farão seu parceiro se tremer e gritar igual um bezerro quando quer leite!🔥",
+      price: "R$ 49,00",
+      freeText: "GRÁTIS"
+    },
+    {
+      imageSrc: "https://i.imgur.com/Iqnhdza.png",
+      description: "Se o que você quer é sexo de verdade, com paixão, entrega e prazer total, as posições fatais são a chave. Prepare-se para descobrir as melhores posições e deixar seu corpo em chamas.🔥",
+      price: "R$ 69,90",
+      freeText: "GRÁTIS HOJE"
+    }
+  ];
+
   const faqItems = [
     {
       question: 'Será que funciona mesmo para mim?',
@@ -311,6 +332,22 @@ export default function Home() {
 
             <p className="text-xl font-bold text-accent pt-8">Não é mágica. É ciência. É psicologia. É o poder que sempre esteve dentro de você, esperando para ser ativado.</p>
             <h2 className="font-headline text-3xl md:text-4xl font-bold text-primary pt-8">Garanta agora mais 4 Bônus exclusivos:</h2>
+        </section>
+
+        {/* Bonus Section */}
+        <section className="w-full flex flex-col items-center space-y-8 py-16">
+          <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-8">
+            {bonusItems.map((bonus, index) => (
+              <div key={index} className="flex flex-col items-center text-center bg-card p-6 rounded-lg shadow-lg">
+                <Image src={bonus.imageSrc} alt={`Bônus ${index + 1}`} width={250} height={250} className="rounded-lg mb-4" />
+                <p className="text-foreground/80 mb-4 text-sm">{bonus.description}</p>
+                <div className="mt-auto">
+                    <p className="text-muted-foreground line-through">{bonus.price}</p>
+                    <p className="text-lg font-bold text-green-500">{bonus.freeText}</p>
+                </div>
+              </div>
+            ))}
+          </div>
         </section>
 
         {/* Specialist Section */}
