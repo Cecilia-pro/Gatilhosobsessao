@@ -5,8 +5,8 @@ import Script from 'next/script';
 
 
 export const metadata: Metadata = {
-  title: 'Gatilhos da Obsessão',
-  description: 'Ative os Gatilhos da Obsessão e Faça ELE Implorar Pela Sua Presença!',
+  title: 'Gatilhos da Sedução',
+  description: 'Ative os Gatilhos da Sedução e Faça ELE Implorar Pela Sua Presença!',
 };
 
 export default function RootLayout({

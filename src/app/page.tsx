@@ -168,7 +168,7 @@ export default function Home() {
   const faqItems = [
     {
       question: 'Será que funciona mesmo para mim?',
-      answer: 'Sim. Os princípios dos Gatilhos da Obsessão são universais e aplicáveis a qualquer mulher, em qualquer fase do relacionamento. As trilhas personalizadas garantem que você receba o conteúdo exato para sua situação.',
+      answer: 'Sim. Os princípios dos Gatilhos da Sedução são universais e aplicáveis a qualquer mulher, em qualquer fase do relacionamento. As trilhas personalizadas garantem que você receba o conteúdo exato para sua situação.',
     },
     {
       question: 'Não tenho tempo para aulas longas.',
@@ -192,9 +192,9 @@ export default function Home() {
       <section className="relative w-full flex flex-col items-center justify-center text-center p-4 pt-8 pb-8 md:pt-16 md:min-h-[70vh]">
           <div className="relative z-10 flex flex-col items-center space-y-6 max-w-3xl">
               <h1 className="font-headline text-3xl md:text-5xl font-bold leading-tight">
-                  <span className="text-primary">O SEGREDO QUE NENHUM HOMEM QUER QUE VOCÊ DESCUBRA:</span> Ative os Gatilhos da Obsessão e Faça ELE Implorar Pela Sua Presença!
+                  <span className="text-primary">O SEGREDO QUE NENHUM HOMEM QUER QUE VOCÊ DESCUBRA:</span> Ative os Gatilhos da Sedução e Faça ELE Implorar Pela Sua Presença!
               </h1>
-              <Image src="https://i.imgur.com/SHWcBfo.gif" alt="Gatilhos da Obsessão" width={300} height={50} className="rounded-lg" />
+              <Image src="https://i.imgur.com/SHWcBfo.gif" alt="Gatilhos da Sedução" width={300} height={50} className="rounded-lg" />
               <p className="text-lg md:text-xl text-foreground/90">
                   Cansada de ser a mulher que dá tudo e recebe migalhas? De ver o desejo dele esfriar e a paixão se perder no dia a dia? Você não está sozinha. Milhões de mulheres como você se sentem invisíveis, trocadas, ou presas em relacionamentos mornos, enquanto outras parecem ter o poder de hipnotizar qualquer homem que desejam. Qual é o segredo delas? É hora de você descobrir.
               </p>
@@ -225,7 +225,7 @@ export default function Home() {
             ))}
           </div>
 
-          <div className="w-full max-w-sm md:max-w-xl lg:max-w-2xl pt-4">
+          <div className="w-full max-w-sm md:max-w-xl lg:max-w-2xl pt-4 md:pt-8">
             <Carousel
               opts={{
                 align: "start",
@@ -315,13 +315,13 @@ export default function Home() {
 
         {/* Product Presentation Section */}
         <section className="w-full flex flex-col items-center space-y-8 py-16">
-            <h2 className="font-headline text-3xl md:text-4xl font-bold text-primary">APRESENTANDO: Gatilhos da Obsessão</h2>
+            <h2 className="font-headline text-3xl md:text-4xl font-bold text-primary">APRESENTANDO: Gatilhos da Sedução</h2>
             <p className="text-xl text-accent font-semibold">Seu Guia Definitivo Para o Magnetismo Feminino Inesquecível</p>
             <p className="text-lg md:text-xl text-foreground/90 max-w-3xl">Chega de teorias vazias. Nosso aplicativo oferece um caminho prático e direto para você:</p>
             
             <div className="w-full flex flex-col md:flex-row items-center gap-10 pt-8">
                 <div className="w-full md:w-1/2">
-                    <Image src="https://i.imgur.com/amhpWE7.png" alt="Mockup do App Gatilhos da Obsessão" width={500} height={500} className="rounded-lg shadow-lg shadow-primary/20" data-ai-hint="app mockup"/>
+                    <Image src="https://i.imgur.com/amhpWE7.png" alt="Mockup do App Gatilhos da Sedução" width={500} height={500} className="rounded-lg shadow-lg shadow-primary/20" data-ai-hint="app mockup"/>
                 </div>
                 <div className="w-full md:w-1/2 flex flex-col space-y-6 text-left">
                     {features.map((feature, index) => (
