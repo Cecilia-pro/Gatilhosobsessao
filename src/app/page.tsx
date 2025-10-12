@@ -119,7 +119,7 @@ export default function Home() {
     },
     {
       question: 'E se eu não gostar?',
-      answer: 'Temos tanta certeza do poder do nosso método que oferecemos uma garantia incondicional de 7 dias. Se você não sentir a transformação, devolvemos seu dinheiro, sem perguntas.',
+      answer: 'Temos tanta certeza do poder do nosso método que oferecemos uma garantia incondicional de 30 dias. Se você não sentir a transformação, devolvemos seu dinheiro, sem perguntas.',
     },
   ];
 
