@@ -27,7 +27,7 @@ import { SocialProof } from '@/components/social-proof';
 import React from 'react';
 
 const CtaButton = ({ className }: { className?: string }) => {
-  const href = "https://go.paradisepagbr.com/otcfh2fdqq";
+  const href = "#pricing";
   return (
     <Link href={href} className="w-full">
       <Button
