@@ -164,6 +164,7 @@ export default function Home() {
               <h1 className="font-headline text-4xl md:text-5xl font-bold leading-tight">
                   O SEGREDO QUE NENHUM HOMEM QUER QUE VOCÊ DESCUBRA: <span className="text-primary">Ative os Gatilhos da Obsessão e Faça ELE Implorar Pela Sua Presença!</span>
               </h1>
+              <Image src="https://i.imgur.com/SHWcBfo.gif" alt="Gatilhos da Obsessão" width={300} height={50} className="rounded-lg" />
               <p className="text-lg md:text-xl text-foreground/90">
                   Cansada de ser a mulher que dá tudo e recebe migalhas? De ver o desejo dele esfriar e a paixão se perder no dia a dia? Você não está sozinha. Milhões de mulheres como você se sentem invisíveis, trocadas, ou presas em relacionamentos mornos, enquanto outras parecem ter o poder de hipnotizar qualquer homem que desejam. Qual é o segredo delas? É hora de você descobrir.
               </p>
