@@ -25,6 +25,13 @@ import {
 import { SocialProof } from '@/components/social-proof';
 import React from 'react';
 import { CountdownTimer } from '@/components/countdown-timer';
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel"
 
 
 const CtaButton = ({ className }: { className?: string }) => {
@@ -55,6 +62,25 @@ export default function Home() {
     {
       icon: Crown,
       title: 'Dominar a mente masculina e se tornar a mulher que ele precisa ter ao lado, a que ele não consegue esquecer.',
+    },
+  ];
+
+  const testimonialImages = [
+    {
+      src: "https://i.imgur.com/6nPu2qc.png",
+      alt: "Depoimento 1",
+    },
+    {
+      src: "https://i.imgur.com/JhxeW8y.png",
+      alt: "Depoimento 2",
+    },
+    {
+      src: "https://i.imgur.com/vbMBpht.png",
+      alt: "Depoimento 3",
+    },
+    {
+      src: "https://i.imgur.com/JCDERjC.png",
+      alt: "Depoimento 4",
     },
   ];
 
@@ -163,6 +189,36 @@ export default function Home() {
               </div>
             ))}
           </div>
+
+          <div className="w-full max-w-sm md:max-w-xl lg:max-w-2xl pt-8">
+            <Carousel
+              opts={{
+                align: "start",
+                loop: true,
+              }}
+              className="w-full"
+            >
+              <CarouselContent>
+                {testimonialImages.map((img, index) => (
+                  <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+                    <div className="p-1">
+                      <Image
+                        src={img.src}
+                        alt={img.alt}
+                        width={300}
+                        height={500}
+                        className="rounded-lg object-cover w-full h-auto"
+                        data-ai-hint="testimonial"
+                      />
+                    </div>
+                  </CarouselItem>
+                ))}
+              </CarouselContent>
+              <CarouselPrevious className="hidden md:flex" />
+              <CarouselNext className="hidden md:flex"/>
+            </Carousel>
+          </div>
+
           <p className="text-lg md:text-xl text-foreground/80 max-w-3xl pt-8">
             Este não é mais um "curso de sedução". É um sistema de ativação emocional feminina baseado em neurociência, psicologia junguiana e energia feminina que vai transformar você na mulher que ele persegue, valoriza e ama obsessivamente.
           </p>
@@ -295,3 +351,5 @@ export default function Home() {
     </div>
   );
 }
+
+    
