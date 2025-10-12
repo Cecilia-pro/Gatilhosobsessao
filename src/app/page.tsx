@@ -1,3 +1,4 @@
+
 'use client';
 
 import Image from 'next/image';
@@ -455,7 +456,7 @@ export default function Home() {
             <Image src="https://i.imgur.com/1meWlI1.png" alt="Selo de Garantia" width={128} height={128} data-ai-hint="guarantee badge" />
             <h2 className="font-headline text-2xl md:text-3xl font-bold">Garantia de 30 Dias</h2>
             <p className="max-w-2xl text-lg text-foreground/80">
-                Sua satisfação é 100% garantida. Se por qualquer motivo você não ficar completamente satisfeita com os resultados nos próximos 30 dias, basta nos enviar um e-mail e nós devolveremos cada centavo do seu investimento, sem burocracia.
+                Você terá 30 dias para entrar, experimentar e se não gostar você poderá pedir o dinheiro de volta… Eu prometo pra você que vai valer a pena. Caso você entre e acredite que não valeu a pena… É só solicitar sua garantia dentro do prazo de 30 dias… Que Devolvemos 100% do seu dinheiro na mesma hora.
             </p>
         </section>
         
@@ -488,5 +489,7 @@ export default function Home() {
     </div>
   );
 }
+
+    
 
     
