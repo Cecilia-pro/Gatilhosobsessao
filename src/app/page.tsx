@@ -34,7 +34,7 @@ const CtaButton = ({ className }: { className?: string }) => {
         className={`w-full h-14 text-lg font-bold bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg shadow-primary/30 ${className}`}
         size="lg"
       >
-        QUERO ATIVAR MEUS GATILHOS DA OBSESSÃO AGORA!
+        EU QUERO ACESSAR AGORA
       </Button>
     </Link>
   );
@@ -127,7 +127,7 @@ export default function Home() {
       <SocialProof />
 
       {/* Hero Section */}
-      <section className="relative w-full flex flex-col items-center justify-center text-center p-4 pt-12 pb-8 md:pt-32 md:pb-20">
+      <section className="relative w-full flex flex-col items-center justify-center text-center p-4 pt-12 pb-8 md:pt-20 md:pb-16">
           <div className="relative z-10 flex flex-col items-center space-y-6 max-w-3xl">
               <h1 className="font-headline text-3xl md:text-5xl font-bold leading-tight">
                   O SEGREDO QUE NENHUM HOMEM QUER QUE VOCÊ DESCUBRA: <span className="text-primary">Ative os Gatilhos da Obsessão e Faça ELE Implorar Pela Sua Presença!</span>
