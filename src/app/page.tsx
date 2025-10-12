@@ -294,7 +294,7 @@ export default function Home() {
             
             <div className="w-full flex flex-col md:flex-row items-center gap-10 pt-8">
                 <div className="w-full md:w-1/2">
-                    <Image src="https://i.imgur.com/FDNieZ0.jpeg" alt="Mockup do App Gatilhos da Obsessão" width={500} height={500} className="rounded-lg shadow-lg shadow-primary/20" data-ai-hint="app mockup"/>
+                    <Image src="https://i.imgur.com/amhpWE7.png" alt="Mockup do App Gatilhos da Obsessão" width={500} height={500} className="rounded-lg shadow-lg shadow-primary/20" data-ai-hint="app mockup"/>
                 </div>
                 <div className="w-full md:w-1/2 flex flex-col space-y-6 text-left">
                     {features.map((feature, index) => (
