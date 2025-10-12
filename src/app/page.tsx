@@ -184,6 +184,14 @@ export default function Home() {
     },
   ];
 
+  const attentionCarouselImages = [
+    { src: "https://i.imgur.com/oSZ0CHS.png", alt: "Atenção Imagem 1" },
+    { src: "https://i.imgur.com/66ECKTD.png", alt: "Atenção Imagem 2" },
+    { src: "https://i.imgur.com/HUW9Iqx.png", alt: "Atenção Imagem 3" },
+    { src: "https://i.imgur.com/Th20pdu.png", alt: "Atenção Imagem 4" },
+    { src: "https://i.imgur.com/o61ilum.png", alt: "Atenção Imagem 5" },
+  ];
+
   return (
     <div className="flex flex-col items-center bg-background text-foreground overflow-x-hidden">
       <SocialProof />
@@ -399,6 +407,39 @@ export default function Home() {
             </p>
             </div>
         </section>
+
+        {/* Attention Carousel Section */}
+        <section className="w-full flex flex-col items-center space-y-8 pb-16">
+             <div className="w-full max-w-sm md:max-w-xl lg:max-w-3xl">
+                <Carousel
+                opts={{
+                    align: "start",
+                    loop: true,
+                }}
+                className="w-full"
+                >
+                <CarouselContent>
+                    {attentionCarouselImages.map((img, index) => (
+                    <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+                        <div className="p-1">
+                        <Image
+                            src={img.src}
+                            alt={img.alt}
+                            width={300}
+                            height={500}
+                            className="rounded-lg object-cover w-full h-auto"
+                            data-ai-hint="attention image"
+                        />
+                        </div>
+                    </CarouselItem>
+                    ))}
+                </CarouselContent>
+                <CarouselPrevious className="hidden md:flex" />
+                <CarouselNext className="hidden md:flex"/>
+                </Carousel>
+            </div>
+        </section>
+
 
         {/* Guarantee Section */}
         <section className="w-full flex flex-col items-center space-y-4 py-12 text-center">
