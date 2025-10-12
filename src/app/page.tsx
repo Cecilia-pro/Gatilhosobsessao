@@ -84,6 +84,14 @@ export default function Home() {
     },
   ];
 
+  const paymentProofImages = [
+    { src: "https://i.imgur.com/bW5OOOZ.png", alt: "Comprovante 1" },
+    { src: "https://i.imgur.com/WtdLbMQ.png", alt: "Comprovante 2" },
+    { src: "https://i.imgur.com/3epR0IR.png", alt: "Comprovante 3" },
+    { src: "https://i.imgur.com/VjUYTNT.png", alt: "Comprovante 4" },
+    { src: "https://i.imgur.com/5oHzamC.png", alt: "Comprovante 5" },
+  ];
+
   const secrets = [
     {
       icon: '1',
@@ -254,6 +262,40 @@ export default function Home() {
             ))}
           </div>
         </section>
+
+        {/* Payment Proof Carousel Section */}
+        <section className="w-full flex flex-col items-center space-y-8 py-16">
+            <h2 className="font-headline text-3xl md:text-4xl font-bold">Elas Já Estão no Controle</h2>
+             <div className="w-full max-w-sm md:max-w-xl lg:max-w-3xl pt-8">
+                <Carousel
+                opts={{
+                    align: "start",
+                    loop: true,
+                }}
+                className="w-full"
+                >
+                <CarouselContent>
+                    {paymentProofImages.map((img, index) => (
+                    <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+                        <div className="p-1">
+                        <Image
+                            src={img.src}
+                            alt={img.alt}
+                            width={300}
+                            height={500}
+                            className="rounded-lg object-cover w-full h-auto"
+                            data-ai-hint="payment proof"
+                        />
+                        </div>
+                    </CarouselItem>
+                    ))}
+                </CarouselContent>
+                <CarouselPrevious className="hidden md:flex" />
+                <CarouselNext className="hidden md:flex"/>
+                </Carousel>
+            </div>
+        </section>
+
 
         {/* Product Presentation Section */}
         <section className="w-full flex flex-col items-center space-y-8 py-16">
