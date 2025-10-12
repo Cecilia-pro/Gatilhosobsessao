@@ -231,17 +231,6 @@ export default function Home() {
             Este não é mais um "curso de sedução". É um sistema de ativação emocional feminina baseado em neurociência, psicologia junguiana e energia feminina que vai transformar você na mulher que ele persegue, valoriza e ama obsessivamente.
           </p>
 
-          <div className="pt-8">
-            <Image 
-              src="https://i.imgur.com/amhpWE7.png"
-              alt="Depoimento adicional"
-              width={700}
-              height={400}
-              className="rounded-lg shadow-lg"
-              data-ai-hint="testimonial social media"
-            />
-          </div>
-
         </section>
 
         {/* Secrets Section */}
@@ -405,5 +394,3 @@ export default function Home() {
     </div>
   );
 }
-
-    
