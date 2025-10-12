@@ -365,7 +365,7 @@ export default function Home() {
                   <h3 className="font-headline text-3xl font-bold text-primary">Dra. Helena Campos</h3>
                   <p className="text-lg text-accent font-semibold">Especialista em Comportamento e Vínculos Femininos</p>
                   <p className="mt-4 text-foreground/80">
-                  Médica e terapeuta comportamental (CRM fictício 142567-SP), com mais de 10 anos dedicados a desvendar os mistérios da mente masculina e da dinâmica dos relacionamentos. Criadora do aclamado "Código da Conexão", Dra. Helena Campos já ajudou milhares de mulheres a restaurar sua energia feminina, reacender a paixão e construir relacionamentos onde são verdadeiramente valorizadas e desejadas. Sua abordagem combina neurociência, psicologia junguiana e técnicas comprovadas para que você se torne a mulher inesquecível que ele não consegue viver sem.
+                  Médica e terapeuta comportamental (Formada na USP - Universidade de São Paulo), com mais de 10 anos dedicados a desvendar os mistérios da mente masculina e da dinâmica dos relacionamentos. Criadora do aclamado "Código da Conexão", Dra. Helena Campos já ajudou milhares de mulheres a restaurar sua energia feminina, reacender a paixão e construir relacionamentos onde são verdadeiramente valorizadas e desejadas. Sua abordagem combina neurociência, psicologia junguiana e técnicas comprovadas para que você se torne a mulher inesquecível que ele não consegue viver sem.
                   </p>
               </div>
           </div>
