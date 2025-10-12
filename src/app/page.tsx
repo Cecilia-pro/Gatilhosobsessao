@@ -235,7 +235,6 @@ export default function Home() {
             <p className="text-sm text-foreground/80">OFERTA ESPECIAL POR APENAS</p>
             <p className="font-headline text-7xl md:text-8xl text-primary" style={{ textShadow: '0 0 15px hsl(var(--primary) / 0.5)' }}>R$ 29,90</p>
           </div>
-          <p className="text-md text-yellow-400 font-semibold">Oferta por Tempo Limitado: Clique agora e garanta acesso imediato ao aplicativo e a todos os segredos que farão ele te perseguir, te valorizar e te amar como nunca antes!</p>
           <div className="w-full max-w-md pt-4">
             <CtaButton className="bg-primary hover:bg-primary/90 animate-pulse-glow" />
           </div>
