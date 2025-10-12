@@ -222,6 +222,18 @@ export default function Home() {
           <p className="text-lg md:text-xl text-foreground/80 max-w-3xl pt-8">
             Este não é mais um "curso de sedução". É um sistema de ativação emocional feminina baseado em neurociência, psicologia junguiana e energia feminina que vai transformar você na mulher que ele persegue, valoriza e ama obsessivamente.
           </p>
+
+          <div className="pt-8">
+            <Image 
+              src="https://i.imgur.com/amhpWE7.png"
+              alt="Depoimento adicional"
+              width={700}
+              height={400}
+              className="rounded-lg shadow-lg"
+              data-ai-hint="testimonial social media"
+            />
+          </div>
+
         </section>
 
         {/* Secrets Section */}
@@ -251,7 +263,7 @@ export default function Home() {
             
             <div className="w-full flex flex-col md:flex-row items-center gap-10 pt-8">
                 <div className="w-full md:w-1/2">
-                    <Image src="https://i.imgur.com/ZVtyRFf.jpeg" alt="Mockup do App Gatilhos da Obsessão" width={500} height={500} className="rounded-lg shadow-lg shadow-primary/20" data-ai-hint="app mockup"/>
+                    <Image src="https://i.imgur.com/FDNieZ0.jpeg" alt="Mockup do App Gatilhos da Obsessão" width={500} height={500} className="rounded-lg shadow-lg shadow-primary/20" data-ai-hint="app mockup"/>
                 </div>
                 <div className="w-full md:w-1/2 flex flex-col space-y-6 text-left">
                     {features.map((feature, index) => (
