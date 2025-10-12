@@ -40,37 +40,6 @@ const CtaButton = ({ className }: { className?: string }) => {
   );
 }
 
-const StickyHeader = () => {
-    const [isSticky, setIsSticky] = React.useState(false);
-
-    React.useEffect(() => {
-        const handleScroll = () => {
-            setIsSticky(window.scrollY > 50);
-        };
-        window.addEventListener('scroll', handleScroll);
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
-
-    return (
-        <header className={`fixed top-0 left-0 right-0 z-40 bg-background/80 backdrop-blur-sm transition-all duration-300 ${isSticky ? 'py-2 shadow-md' : 'py-0 shadow-none'}`}>
-            <div className="container mx-auto px-4 flex justify-center items-center">
-                 <div className={`w-full max-w-md transition-all duration-300 ${isSticky ? 'opacity-100' : 'opacity-0 invisible'}`}>
-                    <Link href="https://go.paradisepagbr.com/otcfh2fdqq" className="w-full">
-                        <Button
-                            className="w-full h-12 text-md font-bold bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg shadow-primary/30"
-                            size="lg"
-                            >
-                            QUERO ATIVAR MEUS GATILHOS AGORA!
-                        </Button>
-                    </Link>
-                 </div>
-            </div>
-        </header>
-    )
-}
-
 export default function Home() {
 
   const benefits = [
@@ -156,7 +125,6 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center bg-background text-foreground overflow-x-hidden">
       <SocialProof />
-      <StickyHeader />
 
       {/* Hero Section */}
       <section className="relative w-full flex flex-col items-center justify-center text-center p-4 pt-24 pb-12 md:pt-32 md:pb-20">
@@ -302,3 +270,5 @@ export default function Home() {
     </div>
   );
 }
+
+    
