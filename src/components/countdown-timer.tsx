@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 
 export function CountdownTimer() {
-  const [time, setTime] = useState(4 * 60 + 45); 
+  const [time, setTime] = useState(15 * 60); 
 
   useEffect(() => {
     if (time <= 0) return;

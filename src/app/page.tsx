@@ -3,18 +3,17 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import {
-  Heart,
   Flame,
   Magnet,
   Crown,
-  BookOpen,
-  Headphones,
   Map,
+  Headphones,
   Target,
   Users,
   Lock,
   MessageSquare,
   Scroll,
+  ShieldCheck,
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
@@ -25,6 +24,8 @@ import {
 } from '@/components/ui/accordion';
 import { SocialProof } from '@/components/social-proof';
 import React from 'react';
+import { CountdownTimer } from '@/components/countdown-timer';
+
 
 const CtaButton = ({ className }: { className?: string }) => {
   const href = "#pricing";
@@ -125,12 +126,12 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center bg-background text-foreground overflow-x-hidden">
       <SocialProof />
-
+      
       {/* Hero Section */}
-      <section className="relative w-full flex flex-col items-center justify-center text-center p-4 pt-12 pb-8 md:pt-20 md:pb-16">
+      <section className="relative w-full flex flex-col items-center justify-center text-center p-4 pt-8 pb-8 md:pt-16">
           <div className="relative z-10 flex flex-col items-center space-y-6 max-w-3xl">
               <h1 className="font-headline text-3xl md:text-5xl font-bold leading-tight">
-                  O SEGREDO QUE NENHUM HOMEM QUER QUE VOCÊ DESCUBRA: <span className="text-primary">Ative os Gatilhos da Obsessão e Faça ELE Implorar Pela Sua Presença!</span>
+                  <span className="text-primary">O SEGREDO QUE NENHUM HOMEM QUER QUE VOCÊ DESCUBRA:</span> Ative os Gatilhos da Obsessão e Faça ELE Implorar Pela Sua Presença!
               </h1>
               <Image src="https://i.imgur.com/SHWcBfo.gif" alt="Gatilhos da Obsessão" width={300} height={50} className="rounded-lg" />
               <p className="text-lg md:text-xl text-foreground/90">
@@ -238,6 +239,24 @@ export default function Home() {
           <div className="w-full max-w-md pt-4">
             <CtaButton className="bg-primary hover:bg-primary/90 animate-pulse-glow" />
           </div>
+        </section>
+
+        {/* Urgency Section */}
+        <section className="w-full flex justify-center text-center -mt-4 mb-8">
+            <div className="w-full max-w-3xl bg-yellow-400/10 border border-yellow-500 text-yellow-400 rounded-lg p-4 font-semibold">
+            <p>
+                ⚠️ ATENÇÃO: Clique agora e garanta acesso imediato ao aplicativo e a todos os segredos que farão ele te perseguir, te valorizar e te amar como nunca antes! <CountdownTimer />! ⏳
+            </p>
+            </div>
+        </section>
+
+        {/* Guarantee Section */}
+        <section className="w-full flex flex-col items-center space-y-4 py-12 text-center">
+            <ShieldCheck className="w-16 h-16 text-green-500" />
+            <h2 className="font-headline text-2xl md:text-3xl font-bold">Garantia de 30 Dias</h2>
+            <p className="max-w-2xl text-lg text-foreground/80">
+                Sua satisfação é 100% garantida. Se por qualquer motivo você não ficar completamente satisfeita com os resultados nos próximos 30 dias, basta nos enviar um e-mail e nós devolveremos cada centavo do seu investimento, sem burocracia.
+            </p>
         </section>
         
         {/* FAQ Section */}
