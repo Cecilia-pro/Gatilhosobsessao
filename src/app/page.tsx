@@ -127,9 +127,9 @@ export default function Home() {
       <SocialProof />
 
       {/* Hero Section */}
-      <section className="relative w-full flex flex-col items-center justify-center text-center p-4 pt-24 pb-12 md:pt-32 md:pb-20">
+      <section className="relative w-full flex flex-col items-center justify-center text-center p-4 pt-12 pb-8 md:pt-32 md:pb-20">
           <div className="relative z-10 flex flex-col items-center space-y-6 max-w-3xl">
-              <h1 className="font-headline text-4xl md:text-5xl font-bold leading-tight">
+              <h1 className="font-headline text-3xl md:text-5xl font-bold leading-tight">
                   O SEGREDO QUE NENHUM HOMEM QUER QUE VOCÊ DESCUBRA: <span className="text-primary">Ative os Gatilhos da Obsessão e Faça ELE Implorar Pela Sua Presença!</span>
               </h1>
               <Image src="https://i.imgur.com/SHWcBfo.gif" alt="Gatilhos da Obsessão" width={300} height={50} className="rounded-lg" />
@@ -270,5 +270,3 @@ export default function Home() {
     </div>
   );
 }
-
-    
