@@ -230,7 +230,7 @@ export default function Home() {
         {/* Final Offer Section */}
         <section id="pricing" className="w-full flex flex-col items-center space-y-6 py-16 my-8 text-white bg-gradient-to-br from-secondary to-black rounded-xl p-6 md:p-10 border-2 border-primary shadow-2xl shadow-primary/20">
           <h2 className="font-headline text-3xl md:text-5xl font-bold">SUA CHANCE DE TRANSFORMAR SUA VIDA AMOROSA</h2>
-          <p className="text-lg text-foreground/80">Isso não é um gasto. É um investimento na mulher poderosa e desejada que você nasceu para ser.</p>
+          <p className="text-lg text-foreground/80">Você pagaria facilmente R$ 317,90 para ter acesso a TUDO ISSO... Mas somente hoje, leve tudo isso por um valor exclusivo, nunca visto antes:</p>
           <div className="text-center bg-black/30 rounded-lg p-6 w-full max-w-md my-4 border border-border">
             <p className="text-sm text-foreground/80">OFERTA ESPECIAL POR APENAS</p>
             <p className="font-headline text-7xl md:text-8xl text-primary" style={{ textShadow: '0 0 15px hsl(var(--primary) / 0.5)' }}>R$ 29,90</p>
