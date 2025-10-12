@@ -9,11 +9,11 @@ import {
   Map,
   Headphones,
   Target,
-  Users,
   Lock,
   MessageSquare,
   Scroll,
   ShieldCheck,
+  AlertTriangle,
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
@@ -233,7 +233,7 @@ export default function Home() {
             ))}
           </div>
 
-          <div className="w-full max-w-sm md:max-w-xl lg:max-w-2xl pt-4 md:pt-0">
+          <div className="w-full max-w-sm md:max-w-xl lg:max-w-2xl pt-4 md:pt-8">
             <Carousel
               opts={{
                 align: "start",
@@ -441,9 +441,10 @@ export default function Home() {
         </section>
 
         <section className="w-full flex justify-center text-center my-8">
-          <div className="w-full max-w-3xl bg-card border border-border rounded-lg p-6">
-            <p className="text-lg text-foreground/90">
-              Essa oferta é válida por tempo LIMITADA. Após o término do período promocional, o preço voltará ao normal.  Se você fechar essa página, pode perder a chance de aproveitar essa oportunidade única por esse valor.
+          <div className="w-full max-w-3xl bg-yellow-400/10 border border-yellow-500 text-yellow-400 rounded-lg p-6 flex flex-col items-center gap-4">
+            <AlertTriangle className="w-8 h-8 text-yellow-400" />
+            <p className="text-lg font-semibold">
+              Essa oferta é válida por tempo LIMITADO. Após o término do período promocional, o preço voltará ao normal.  Se você fechar essa página, pode perder a chance de aproveitar essa oportunidade única por esse valor.
             </p>
           </div>
         </section>
@@ -487,3 +488,5 @@ export default function Home() {
     </div>
   );
 }
+
+    
