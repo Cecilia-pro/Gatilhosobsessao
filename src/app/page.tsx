@@ -233,7 +233,7 @@ export default function Home() {
             ))}
           </div>
 
-          <div className="w-full max-w-sm md:max-w-xl lg:max-w-2xl pt-4 md:pt-8">
+          <div className="w-full max-w-sm md:max-w-xl lg:max-w-2xl pt-4 md:pt-0">
             <Carousel
               opts={{
                 align: "start",
@@ -443,7 +443,7 @@ export default function Home() {
 
         {/* Guarantee Section */}
         <section className="w-full flex flex-col items-center space-y-4 py-12 text-center">
-            <ShieldCheck className="w-16 h-16 text-green-500" />
+            <Image src="https://i.imgur.com/1meWlI1.png" alt="Selo de Garantia" width={128} height={128} data-ai-hint="guarantee badge" />
             <h2 className="font-headline text-2xl md:text-3xl font-bold">Garantia de 30 Dias</h2>
             <p className="max-w-2xl text-lg text-foreground/80">
                 Sua satisfação é 100% garantida. Se por qualquer motivo você não ficar completamente satisfeita com os resultados nos próximos 30 dias, basta nos enviar um e-mail e nós devolveremos cada centavo do seu investimento, sem burocracia.
