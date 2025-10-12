@@ -10,8 +10,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        body: ['PT Sans', 'sans-serif'],
-        headline: ['Playfair Display', 'serif'],
+        body: ['Open Sans', 'sans-serif'],
+        headline: ['Montserrat', 'serif'],
         code: ['monospace'],
       },
       colors: {
@@ -90,11 +90,11 @@ export default {
         },
         'pulse-glow': {
           '0%, 100%': {
-            boxShadow: '0 0 10px 0px hsl(var(--accent) / 0.7)',
+            boxShadow: '0 0 10px 0px hsl(var(--primary) / 0.7)',
             transform: 'scale(1)',
           },
           '50%': {
-            boxShadow: '0 0 20px 7px hsl(var(--accent) / 0.3)',
+            boxShadow: '0 0 20px 7px hsl(var(--primary) / 0.3)',
             transform: 'scale(1.05)',
           },
         },

@@ -5,8 +5,8 @@ import Script from 'next/script';
 
 
 export const metadata: Metadata = {
-  title: 'Obsession Secrets',
-  description: 'Descubra os SEGREDOS para fazer qualquer homem IMPLORAR POR VOCÊ.',
+  title: 'Gatilhos da Obsessão',
+  description: 'Ative os Gatilhos da Obsessão e Faça ELE Implorar Pela Sua Presença!',
 };
 
 export default function RootLayout({
@@ -19,7 +19,7 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
         
         {/* Meta Pixel Code */}
         <Script id="meta-pixel" strategy="afterInteractive">
