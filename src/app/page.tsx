@@ -198,7 +198,7 @@ export default function Home() {
             ))}
           </div>
 
-          <div className="w-full max-w-sm md:max-w-xl lg:max-w-2xl pt-8">
+          <div className="w-full max-w-sm md:max-w-xl lg:max-w-2xl pt-4">
             <Carousel
               opts={{
                 align: "start",
@@ -227,7 +227,7 @@ export default function Home() {
             </Carousel>
           </div>
 
-          <p className="text-lg md:text-xl text-foreground/80 max-w-3xl pt-8">
+          <p className="text-lg md:text-xl text-foreground/80 max-w-3xl pt-4">
             Este não é mais um "curso de sedução". É um sistema de ativação emocional feminina baseado em neurociência, psicologia junguiana e energia feminina que vai transformar você na mulher que ele persegue, valoriza e ama obsessivamente.
           </p>
 
