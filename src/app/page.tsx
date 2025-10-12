@@ -310,6 +310,7 @@ export default function Home() {
             </div>
 
             <p className="text-xl font-bold text-accent pt-8">Não é mágica. É ciência. É psicologia. É o poder que sempre esteve dentro de você, esperando para ser ativado.</p>
+            <h2 className="font-headline text-3xl md:text-4xl font-bold text-primary pt-8">Garanta agora mais 4 Bônus exclusivos:</h2>
         </section>
 
         {/* Specialist Section */}
