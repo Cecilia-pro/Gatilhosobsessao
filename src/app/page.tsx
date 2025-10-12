@@ -128,7 +128,7 @@ export default function Home() {
       <SocialProof />
       
       {/* Hero Section */}
-      <section className="relative w-full flex flex-col items-center justify-center text-center p-4 pt-8 pb-8 md:pt-16">
+      <section className="relative w-full flex flex-col items-center justify-center text-center p-4 pt-8 pb-8 md:pt-16 md:min-h-[70vh]">
           <div className="relative z-10 flex flex-col items-center space-y-6 max-w-3xl">
               <h1 className="font-headline text-3xl md:text-5xl font-bold leading-tight">
                   <span className="text-primary">O SEGREDO QUE NENHUM HOMEM QUER QUE VOCÊ DESCUBRA:</span> Ative os Gatilhos da Obsessão e Faça ELE Implorar Pela Sua Presença!
@@ -237,7 +237,14 @@ export default function Home() {
             <p className="font-headline text-7xl md:text-8xl text-primary" style={{ textShadow: '0 0 15px hsl(var(--primary) / 0.5)' }}>R$ 29,90</p>
           </div>
           <div className="w-full max-w-md pt-4">
-            <CtaButton className="bg-primary hover:bg-primary/90 animate-pulse-glow" />
+            <Link href="https://go.paradisepagbr.com/otcfh2fdqq" className="w-full" target="_blank" rel="noopener noreferrer">
+              <Button
+                className="w-full h-14 text-lg font-bold bg-green-600 text-white hover:bg-green-700 shadow-lg shadow-green-600/30 animate-pulse-glow"
+                size="lg"
+              >
+                EU QUERO ACESSAR AGORA
+              </Button>
+            </Link>
           </div>
         </section>
 
