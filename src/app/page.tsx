@@ -159,18 +159,7 @@ export default function Home() {
       <StickyHeader />
 
       {/* Hero Section */}
-      <section className="relative w-full h-screen flex flex-col items-center justify-center text-center p-4">
-          <div className="absolute inset-0 bg-black">
-              <Image
-                  src="https://i.imgur.com/HadBWwf.png"
-                  alt="Mulher confiante"
-                  fill
-                  className="object-cover"
-                  data-ai-hint="powerful woman"
-                  priority
-              />
-              <div className="absolute inset-0 bg-secondary/60"></div>
-          </div>
+      <section className="relative w-full flex flex-col items-center justify-center text-center p-4 pt-24 pb-12 md:pt-32 md:pb-20">
           <div className="relative z-10 flex flex-col items-center space-y-6 max-w-3xl">
               <h1 className="font-headline text-4xl md:text-5xl font-bold leading-tight">
                   O SEGREDO QUE NENHUM HOMEM QUER QUE VOCÊ DESCUBRA: <span className="text-primary">Ative os Gatilhos da Obsessão e Faça ELE Implorar Pela Sua Presença!</span>
