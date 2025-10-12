@@ -440,6 +440,14 @@ export default function Home() {
             </div>
         </section>
 
+        <section className="w-full flex justify-center text-center my-8">
+          <div className="w-full max-w-3xl bg-card border border-border rounded-lg p-6">
+            <p className="text-lg text-foreground/90">
+              Essa oferta é válida por tempo LIMITADA. Após o término do período promocional, o preço voltará ao normal.  Se você fechar essa página, pode perder a chance de aproveitar essa oportunidade única por esse valor.
+            </p>
+          </div>
+        </section>
+
 
         {/* Guarantee Section */}
         <section className="w-full flex flex-col items-center space-y-4 py-12 text-center">
