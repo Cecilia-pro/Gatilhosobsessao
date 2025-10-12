@@ -234,7 +234,7 @@ export default function Home() {
           <p className="text-lg text-foreground/80">Você pagaria facilmente R$ 317,90 para ter acesso a TUDO ISSO... Mas somente hoje, leve tudo isso por um valor exclusivo, nunca visto antes:</p>
           <div className="text-center bg-black/30 rounded-lg p-6 w-full max-w-md my-4 border border-border">
             <p className="text-sm text-foreground/80">OFERTA ESPECIAL POR APENAS</p>
-            <p className="font-headline text-7xl md:text-8xl text-primary" style={{ textShadow: '0 0 15px hsl(var(--primary) / 0.5)' }}>R$ 29,90</p>
+            <p className="font-headline text-7xl md:text-8xl text-red-500" style={{ textShadow: '0 0 15px hsl(var(--primary) / 0.5)' }}>R$ 29,90</p>
           </div>
           <div className="w-full max-w-md pt-4">
             <Link href="https://go.paradisepagbr.com/otcfh2fdqq" className="w-full" target="_blank" rel="noopener noreferrer">
