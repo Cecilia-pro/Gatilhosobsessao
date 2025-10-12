@@ -360,7 +360,7 @@ export default function Home() {
         <section className="w-full flex flex-col items-center space-y-6 py-16 bg-card rounded-xl p-6 md:p-10">
           <h2 className="font-headline text-3xl md:text-4xl font-bold">QUEM ESTÁ POR TRÁS DESTE CONHECIMENTO REVOLUCIONÁRIO?</h2>
           <div className="flex flex-col md:flex-row items-center gap-8 pt-6">
-              <Image src="https://i.imgur.com/3DIGwpL.jpeg" alt="Dra. Helena Campos" width={250} height={250} className="rounded-full border-4 border-primary shadow-lg" data-ai-hint="specialist photo"/>
+              <Image src="https://i.imgur.com/RRJe7Ai.jpeg" alt="Dra. Helena Campos" width={250} height={250} className="rounded-full border-4 border-primary shadow-lg" data-ai-hint="specialist photo"/>
               <div className="flex flex-col text-center md:text-left">
                   <h3 className="font-headline text-3xl font-bold text-primary">Dra. Helena Campos</h3>
                   <p className="text-lg text-accent font-semibold">Especialista em Comportamento e Vínculos Femininos</p>
