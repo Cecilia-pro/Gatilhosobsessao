@@ -204,6 +204,9 @@ export default function Home() {
                   <span className="text-primary">O SEGREDO PROIBIDO:</span> Faça Ele Implorar Pela Sua Presença.
               </h1>
               <Image src="https://i.imgur.com/SHWcBfo.gif" alt="Gatilhos da Sedução" width={300} height={50} className="rounded-lg" />
+              <div className="w-full max-w-sm pt-4">
+                <CtaButton className="animate-pulse-glow" />
+              </div>
               <p className="text-lg md:text-xl text-foreground/90">
                   Cansada de ser a mulher que dá tudo e recebe migalhas? De ver o desejo dele esfriar e a paixão se perder no dia a dia? Você não está sozinha. Milhões de mulheres como você se sentem invisíveis, trocadas, ou presas em relacionamentos mornos, enquanto outras parecem ter o poder de hipnotizar qualquer homem que desejam. Qual é o segredo delas? É hora de você descobrir.
               </p>
@@ -213,9 +216,7 @@ export default function Home() {
                       Você se dedica, se esforça, tenta de tudo... e ele simplesmente se afasta. Você se pergunta: "O que eu fiz de errado?" A verdade é que o problema não é você. <span className="font-bold">É o código que você não conhece.</span>
                   </p>
               </div>
-              <div className="w-full max-w-sm pt-4">
-                <CtaButton className="animate-pulse-glow" />
-              </div>
+              
           </div>
       </section>
       
@@ -389,7 +390,7 @@ export default function Home() {
             <p className="font-headline text-7xl md:text-8xl text-red-500" style={{ textShadow: '0 0 15px hsl(var(--primary) / 0.5)' }}>R$ 29,90</p>
           </div>
           <div className="w-full max-w-md pt-4">
-            <Link href="https://go.paradisepagbr.com/otcfh2fdqq" className="w-full" target="_blank" rel="noopener noreferrer">
+            <Link href="https://compraseguraonline.org.ua/c/03b62f7fc6" className="w-full" target="_blank" rel="noopener noreferrer">
               <Button
                 className="w-full h-14 text-lg font-bold bg-green-600 text-white hover:bg-green-700 shadow-lg shadow-green-600/30 animate-pulse-glow"
                 size="lg"
@@ -459,7 +460,7 @@ export default function Home() {
                 Você terá 30 dias para entrar, experimentar e se não gostar você poderá pedir o dinheiro de volta… Eu prometo pra você que vai valer a pena. Caso você entre e acredite que não valeu a pena… É só solicitar sua garantia dentro do prazo de 30 dias… Que Devolvemos 100% do seu dinheiro na mesma hora.
             </p>
             <div className="w-full max-w-md pt-4">
-              <Link href="https://go.paradisepagbr.com/otcfh2fdqq?utm_source=organic&utm_campaign=&utm_medium=&utm_content=&utm_term=" className="w-full" target="_blank" rel="noopener noreferrer">
+              <Link href="https://go.paradisepagbr.com/otcfh2fdqq?utm_source=organic&utm_campaign=&utm_medium=&utm_content=&utm_term" className="w-full" target="_blank" rel="noopener noreferrer">
                 <Button
                   className="w-full h-14 text-lg font-bold bg-green-600 text-white hover:bg-green-700 shadow-lg shadow-green-600/30"
                   size="lg"
