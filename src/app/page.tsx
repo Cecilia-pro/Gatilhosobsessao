@@ -201,7 +201,7 @@ export default function Home() {
       <section className="relative w-full flex flex-col items-center justify-center text-center p-4 pt-8 pb-8 md:pt-16 md:min-h-[70vh]">
           <div className="relative z-10 flex flex-col items-center space-y-6 max-w-3xl">
               <h1 className="font-headline text-3xl md:text-5xl font-bold leading-tight">
-                  <span className="text-primary">O SEGREDO QUE NENHUM HOMEM QUER QUE VOCÊ DESCUBRA</span> - E Faça ELE Implorar Pela Sua Presença!
+                  <span className="text-primary">O SEGREDO PROIBIDO:</span> Faça Ele Implorar Pela Sua Presença.
               </h1>
               <Image src="https://i.imgur.com/SHWcBfo.gif" alt="Gatilhos da Sedução" width={300} height={50} className="rounded-lg" />
               <p className="text-lg md:text-xl text-foreground/90">
