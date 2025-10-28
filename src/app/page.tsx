@@ -260,8 +260,8 @@ export default function Home() {
                   </CarouselItem>
                 ))}
               </CarouselContent>
-              <CarouselPrevious className="left-2 md:left-[-50px] flex md:flex" />
-              <CarouselNext className="right-2 md:right-[-50px] flex md:flex"/>
+              <CarouselPrevious className="left-2 md:left-[-50px] flex" />
+              <CarouselNext className="right-2 md:right-[-50px] flex"/>
             </Carousel>
           </div>
 
@@ -317,8 +317,8 @@ export default function Home() {
                     </CarouselItem>
                     ))}
                 </CarouselContent>
-                <CarouselPrevious className="left-2 md:left-[-50px] flex md:flex" />
-                <CarouselNext className="right-2 md:right-[-50px] flex md:flex"/>
+                <CarouselPrevious className="left-2 md:left-[-50px] flex" />
+                <CarouselNext className="right-2 md:right-[-50px] flex"/>
                 </Carousel>
             </div>
         </section>
@@ -384,11 +384,11 @@ export default function Home() {
 
         {/* Final Offer Section */}
         <section id="pricing" className="w-full flex flex-col items-center space-y-6 py-12 my-8 text-white bg-gradient-to-br from-secondary to-black rounded-xl p-6 md:p-8 border-2 border-primary shadow-2xl shadow-primary/20">
-          <h2 className="font-headline text-3xl md:text-4xl font-bold">SUA CHANCE DE TRANSFORMAR SUA VIDA AMOROSA</h2>
-          <p className="text-lg text-foreground/80 max-w-3xl">Você pagaria facilmente R$ 317,90 para ter acesso a TUDO ISSO... Mas somente hoje, leve tudo isso por um valor exclusivo, nunca visto antes:</p>
-          <div className="text-center bg-black/30 rounded-lg p-4 w-full max-w-md my-4 border border-border">
+          <h2 className="font-headline text-2xl md:text-3xl font-bold">SUA CHANCE DE TRANSFORMAR SUA VIDA AMOROSA</h2>
+          <p className="text-md text-foreground/80 max-w-3xl">Você pagaria facilmente R$ 317,90 para ter acesso a TUDO ISSO... Mas somente hoje, leve tudo isso por um valor exclusivo, nunca visto antes:</p>
+          <div className="text-center bg-black/30 rounded-lg p-4 w-full max-w-sm my-2 border border-border">
             <p className="text-sm text-foreground/80">OFERTA ESPECIAL POR APENAS</p>
-            <p className="font-headline text-6xl md:text-7xl text-red-500" style={{ textShadow: '0 0 15px hsl(var(--primary) / 0.5)' }}>R$ 29,90</p>
+            <p className="font-headline text-5xl md:text-6xl text-red-500" style={{ textShadow: '0 0 15px hsl(var(--primary) / 0.5)' }}>R$ 29,90</p>
           </div>
           <div className="w-full max-w-md pt-4">
             <Link href="https://vendasonlinedigital.store/c/03b62f7fc6" className="w-full" target="_blank" rel="noopener noreferrer">
@@ -437,8 +437,8 @@ export default function Home() {
                     </CarouselItem>
                     ))}
                 </CarouselContent>
-                <CarouselPrevious className="left-2 md:left-[-50px] flex md:flex" />
-                <CarouselNext className="right-2 md:right-[-50px] flex md:flex"/>
+                <CarouselPrevious className="left-2 md:left-[-50px] flex" />
+                <CarouselNext className="right-2 md:right-[-50px] flex"/>
                 </Carousel>
             </div>
         </section>
