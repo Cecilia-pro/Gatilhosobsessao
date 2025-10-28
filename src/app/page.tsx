@@ -391,7 +391,7 @@ export default function Home() {
             <p className="font-headline text-6xl md:text-7xl text-red-500" style={{ textShadow: '0 0 15px hsl(var(--primary) / 0.5)' }}>R$ 29,90</p>
           </div>
           <div className="w-full max-w-md pt-4">
-            <Link href="https://compraseguraonline.org.ua/c/03b62f7fc6" className="w-full" target="_blank" rel="noopener noreferrer">
+            <Link href="https://vendasonlinedigital.store/c/03b62f7fc6" className="w-full" target="_blank" rel="noopener noreferrer">
               <Button
                 className="w-full h-14 text-lg font-bold bg-green-600 text-white hover:bg-green-700 shadow-lg shadow-green-600/30 animate-pulse-glow"
                 size="lg"
@@ -461,7 +461,7 @@ export default function Home() {
                 Você terá 30 dias para entrar, experimentar e se não gostar você poderá pedir o dinheiro de volta… Eu prometo pra você que vai valer a pena. Caso você entre e acredite que não valeu a pena… É só solicitar sua garantia dentro do prazo de 30 dias… Que Devolvemos 100% do seu dinheiro na mesma hora.
             </p>
             <div className="w-full max-w-md pt-4">
-              <Link href="https://compraseguraonline.org.ua/c/03b62f7fc6" className="w-full" target="_blank" rel="noopener noreferrer">
+              <Link href="https://vendasonlinedigital.store/c/03b62f7fc6" className="w-full" target="_blank" rel="noopener noreferrer">
                 <Button
                   className="w-full h-14 text-lg font-bold bg-green-600 text-white hover:bg-green-700 shadow-lg shadow-green-600/30"
                   size="lg"
@@ -501,3 +501,5 @@ export default function Home() {
     </div>
   );
 }
+
+    
