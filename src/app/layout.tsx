@@ -22,7 +22,7 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
         
         {/* Meta Pixel Code */}
-        <Script id="meta-pixel" strategy="afterInteractive">
+        <Script id="meta-pixel-1" strategy="afterInteractive">
           {`
             !function(f,b,e,v,n,t,s)
             {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -33,6 +33,22 @@ export default function RootLayout({
             s.parentNode.insertBefore(t,s)}(window, document,'script',
             'https://connect.facebook.net/en_US/fbevents.js');
             fbq('init', '873690944468585');
+            fbq('track', 'PageView');
+          `}
+        </Script>
+
+        {/* Meta Pixel Code 2 */}
+        <Script id="meta-pixel-2" strategy="afterInteractive">
+          {`
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '1414511846525182');
             fbq('track', 'PageView');
           `}
         </Script>
@@ -63,6 +79,11 @@ export default function RootLayout({
         <noscript>
           <img height="1" width="1" style={{display: 'none'}}
           src="https://www.facebook.com/tr?id=873690944468585&ev=PageView&noscript=1"
+          />
+        </noscript>
+        <noscript>
+          <img height="1" width="1" style={{display: 'none'}}
+          src="https://www.facebook.com/tr?id=1414511846525182&ev=PageView&noscript=1"
           />
         </noscript>
         {children}
