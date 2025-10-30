@@ -1,8 +1,8 @@
-import type {Metadata} from 'next';
+import type { Metadata } from 'next';
 import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 import Script from 'next/script';
-
+import RouteTracker from './RouteTracker';
 
 export const metadata: Metadata = {
   title: 'Gatilhos da Sedução',
@@ -11,33 +11,36 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="pt-BR" className="dark">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
-        
-        {/* Meta Pixel Code */}
-        <Script id="meta-pixel-1" strategy="afterInteractive">
+        <link
+          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap"
+          rel="stylesheet"
+        />
+
+        {/* Meta Pixel (loader único + init + PageView inicial) */}
+        <Script id="fb-pixel" strategy="afterInteractive">
           {`
-            !function(f,b,e,v,n,t,s)
-            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-            n.queue=[];t=b.createElement(e);t.async=!0;
-            t.src=v;s=b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t,s)}(window, document,'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', '873690944468585');
-            fbq('track', 'PageView');
+            !function(f,b,e,v,n,t,s){
+              if(f.fbq) return; n=f.fbq=function(){ n.callMethod ?
+                n.callMethod.apply(n,arguments) : n.queue.push(arguments) };
+              if(!f._fbq) f._fbq=n; n.push=n; n.loaded=!0; n.version='2.0';
+              n.queue=[]; t=b.createElement(e); t.async=!0;
+              t.src='https://connect.facebook.net/en_US/fbevents.js';
+              s=b.getElementsByTagName(e)[0];
+              s.parentNode.insertBefore(t,s);
+            }(window, document, 'script');
+
+            fbq('init', '873690944468585'); // <-- teu Pixel ID
+            fbq('track', 'PageView');       // PageView do 1º carregamento
           `}
         </Script>
-        
-        {/* Utmify Pixel */}
+
+        {/* UTMify Pixel */}
         <Script id="utmify-pixel" strategy="afterInteractive">
           {`
             window.pixelId = "685cb2c823907d2b7babe978";
@@ -49,7 +52,7 @@ export default function RootLayout({
           `}
         </Script>
 
-        {/* Utmify Script */}
+        {/* UTMify UTMs */}
         <Script
           src="https://cdn.utmify.com.br/scripts/utms/latest.js"
           data-utmify-prevent-xcod-sck
@@ -57,14 +60,19 @@ export default function RootLayout({
           async
           defer
           strategy="afterInteractive"
-        ></Script>
+        />
       </head>
       <body className="font-body antialiased">
+        {/* Noscript do Pixel */}
         <noscript>
-          <img height="1" width="1" style={{display: 'none'}}
-          src="https://www.facebook.com/tr?id=873690944468585&ev=PageView&noscript=1"
+          <img height="1" width="1" style={{ display: 'none' }}
+            src="https://www.facebook.com/tr?id=873690944468585&ev=PageView&noscript=1"
           />
         </noscript>
+
+        {/* Dispara PageView a cada navegação (SPA) */}
+        <RouteTracker />
+
         {children}
         <Toaster />
       </body>
