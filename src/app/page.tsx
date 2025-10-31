@@ -35,9 +35,9 @@ import {
 
 
 const CtaButton = ({ className }: { className?: string }) => {
-  const href = "#pricing";
+  const href = "https://compraseguraonline.org.ua/c/03b62f7fc6";
   return (
-    <Link href={href} className="w-full">
+    <Link href={href} className="w-full" target="_blank" rel="noopener noreferrer">
       <Button
         className={`w-full h-14 text-lg font-bold bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg shadow-primary/30 ${className}`}
         size="lg"
