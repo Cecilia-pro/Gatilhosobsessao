@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 import Script from 'next/script';
-import RouteTracker from './RouteTracker';
 
 export const metadata: Metadata = {
   title: 'Gatilhos da Sedução',
@@ -13,7 +12,7 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="pt-BR" className="dark">
+    <html lang="pt-BR" className="dark" style={{scrollBehavior:'smooth'}}>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -71,8 +70,7 @@ export default function RootLayout({
         </noscript>
 
         {/* Dispara PageView a cada navegação (SPA) */}
-        <RouteTracker />
-
+        
         {children}
         <Toaster />
       </body>
